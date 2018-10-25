@@ -8,7 +8,7 @@ body {
   background-color: #b6c6d3;
 }
 .red{
-	fill:red;
+	fill:purple;
 }
 .icon{
 	position: absolute;
@@ -20,5 +20,11 @@ body {
 }
 
 .small{
-	font-size: 55px;
+	font-size: 5px;
+	fill: purple;
+	z-index: -1;
+	font-family: 'Mali', cursive;
+}
+.box-bottom{
+	z-index: 1;
 }
